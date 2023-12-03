@@ -1,0 +1,81 @@
+.initApp {
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 728px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    @media (max-width: 345px) {
+        padding: 0 10px;
+    }
+}
+
+.content {
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imgList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.imgListItem {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.descr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.descrItem {
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.descrItemTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.descrList {
+    & li {
+        font-size: 18px;
+
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authorItem {
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
