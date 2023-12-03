@@ -23,7 +23,7 @@ export const buildLoaders = (options: WebpackOptions): RuleSetRule[] => {
     };
 
     const imageLoader: RuleSetRule = {
-        test: /\.(png|jpg|jpeg|gif)$/i,
+        test: /\.(png|jpg|jpeg|gif|pdf)$/i,
         type: "asset/resource",
     };
 

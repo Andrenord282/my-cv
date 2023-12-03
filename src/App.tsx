@@ -1,19 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LayoutDefault } from "./layouts/LayoutDefault";
-import { Init } from "@/pages/Init";
-
-import classes from "./App.module.scss";
+import cvPdf from "./assets/pdf/my-cv.pdf";
 
 const App = () => {
     return (
-        <div className={classes.app}>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<LayoutDefault />}>
-                        <Route index element={<Init />} />
-                    </Route>
-                </Routes>
-            </BrowserRouter>
+        <div>
+            <iframe src={cvPdf} style={{ minWidth: "100vw", minHeight: "100vh" }}></iframe>
         </div>
     );
 };
