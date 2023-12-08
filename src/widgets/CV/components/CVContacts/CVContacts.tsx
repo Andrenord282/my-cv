@@ -40,7 +40,7 @@ const CVContacts = (props: CVContactsProps) => {
                                     {item.text}
                                 </a>
                             )}
-                            {!item.link && <span className="cv-contacts__text"> {item.text}</span>}
+                            {!item.link && <span className="cv-contacts__text cv-text"> {item.text}</span>}
                         </li>
                     );
                 })}
