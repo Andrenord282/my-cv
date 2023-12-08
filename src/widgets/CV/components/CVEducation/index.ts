@@ -1,0 +1,1 @@
+export { CVEducation } from "./CVEducation";

@@ -1,0 +1,32 @@
+.cv-personal-projects {
+}
+.cv-personal-projects__title {
+    margin-bottom: 5px;
+}
+.cv-personal-projects__item {
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.cv-personal-projects__item-title {
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+.cv-personal-projects__item-link {
+    display: block;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.cv-personal-projects__item-descr {
+}
+.cv-personal-projects__item-descr-text {
+    list-style-type: disc;
+    list-style-position: inside;
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}

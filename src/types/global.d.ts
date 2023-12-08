@@ -3,8 +3,7 @@ declare module "*.module.scss" {
     export default classes;
 }
 
-declare module "*.pdf";
-
+declare module "*.json";
 declare module "*.png";
 declare module "*.jpg";
 declare module "*.jpeg";

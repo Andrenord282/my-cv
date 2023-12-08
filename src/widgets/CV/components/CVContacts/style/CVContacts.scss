@@ -1,0 +1,28 @@
+.cv-contacts {
+}
+
+.cv-contacts__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.cv-contacts__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    margin-right: 8px;
+}
+
+.cv-contacts__link {
+    color: var(--secondary-color);
+    word-break: break-all;
+}
+
+.cv-contacts__text {
+    color: var(--secondary-color);
+}

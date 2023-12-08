@@ -1,0 +1,28 @@
+.cv-skills {
+    @media (max-width: 675px) {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+.cv-skills__title {
+    margin-bottom: 10px;
+
+    @media (max-width: 675px) {
+        width: 100%;
+    }
+}
+
+.cv-skills__item {
+    &:not(:last-child) {
+        margin-bottom: 5px;
+
+        @media (max-width: 675px) {
+            margin-bottom: 0;
+            margin-right: 5px;
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+    }
+}

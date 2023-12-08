@@ -1,0 +1,115 @@
+{
+    "header": {
+        "photo": "assets/img/photo-01.jpg",
+        "firstName": "Андрей",
+        "lastName": "Чувашевский",
+        "position": "frontend developer"
+    },
+    "body": {
+        "about-me": {
+            "title": "Обо мне",
+            "text": "Имею двухлетний опыт работы с HTML/CSS/JavaScript. Планирую продолжать карьеру в качестве frontend разработчика. С нетерпением жду возможности применить свои навыки в работе с талантливой командой разработчиков."
+        },
+        "experience": {
+            "title": "Опыт работы",
+            "list": [
+                {
+                    "position": "HTML/CSS DEVELOPER",
+                    "company": "STARTEAM",
+                    "company-link": "https://starteam.io",
+                    "years": "февраль 2022- по настоящее время",
+                    "responsibilities": [
+                        "Разработка и верстка одностраничных веб-сайтов с использованием HTML, CSS, SCSS и JavaScript.",
+                        "Верстка и оптимизация писем на почтовые клиенты.",
+                        "Разработка адаптивного дизайна для поддержки мобильных устройств.",
+                        "Сотрудничество с командой разработчиков и дизайнеров для достижения оптимальных результатов."
+                    ]
+                }
+            ]
+        },
+        "personal-projects": {
+            "title": "Персональные проекты",
+            "list": [
+                {
+                    "title": "Благотворительный хакатон для джунов",
+                    "links": [
+                        "https://jun-hackathon-2023.vercel.app",
+                        "https://github.com/Andrenord282/hackathon-team-16-client"
+                    ],
+                    "descr": ["React/React context/SCSS/BEM", "Разработка клиентской части мини игры"]
+                },
+                {
+                    "title": "Rick and Morty client api",
+                    "links": [
+                        "https://rick-and-morty-app-nine.vercel.app",
+                        "https://github.com/Andrenord282/rick-and-morty-app"
+                    ],
+                    "descr": ["React/Redux toolkit/Axios/SCSS/BEM", "Каталог персонажей вселенной Рик и Морти"]
+                },
+                {
+                    "title": "Knowledgechain",
+                    "links": [
+                        "https://knowledgechain-app.vercel.app",
+                        "https://github.com/Andrenord282/knowledgechain-app"
+                    ],
+                    "descr": [
+                        "React/Redux Toolkit/Axios/JWT/Express/MongoDB/SCSS/BEM",
+                        "Форум, реализована регистрация и логин пользователя, создание поста, сортировка постов"
+                    ]
+                }
+            ]
+        },
+        "contacts": {
+            "title": "",
+            "list": [
+                {
+                    "name": "telegram",
+                    "icon": "telegram",
+                    "text": "@stohelitskii ",
+                    "link": "https://t.me/stohelitskii"
+                },
+                {
+                    "name": "phone",
+                    "icon": "phone",
+                    "text": "+7 778 134 16 97",
+                    "link": "tel:+77781341697"
+                },
+                {
+                    "name": "email",
+                    "icon": "email",
+                    "text": "andrenord282@gmail.com",
+                    "link": "mailto:andrenord282@gmail.com"
+                },
+                {
+                    "name": "location",
+                    "icon": "location",
+                    "text": "Уральск, Казахстан (готов к переезду)"
+                }
+            ]
+        },
+        "skills": {
+            "title": "Навыки",
+            "list": [
+                "JavaScript",
+                "TypeScript",
+                "React/Redux Toolkit",
+                "Axios",
+                "HTML",
+                "CSS/SCSS/BEM",
+                "Express/MongoDB",
+                "Webpack/Gulp",
+                "Git"
+            ]
+        },
+        "education": {
+            "title": "Образование",
+            "list": [
+                {
+                    "name": "Санкт-Петербургский государственный технологический институт",
+                    "years": "2012 - 2016",
+                    "faculty": "Факультет экономики и менеджмента"
+                }
+            ]
+        }
+    }
+}

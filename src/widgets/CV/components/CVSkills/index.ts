@@ -1,0 +1,1 @@
+export { CVSkills } from "./CVSkills";

@@ -23,7 +23,7 @@ export const buildLoaders = (options: WebpackOptions): RuleSetRule[] => {
     };
 
     const imageLoader: RuleSetRule = {
-        test: /\.(png|jpg|jpeg|gif|pdf)$/i,
+        test: /\.(png|jpg|jpeg|gif)$/i,
         type: "asset/resource",
     };
 
@@ -56,18 +56,7 @@ export const buildLoaders = (options: WebpackOptions): RuleSetRule[] => {
     if (isDev) {
         const styleLoader: RuleSetRule = {
             test: /\.scss$/i,
-            use: [
-                "style-loader",
-                {
-                    loader: "css-loader",
-                    options: {
-                        modules: {
-                            localIdentName: "[path]--[local]__[hash:base64:8]",
-                        },
-                    },
-                },
-                "sass-loader",
-            ],
+            use: ["style-loader", "css-loader", "sass-loader"],
         };
 
         rules.push(styleLoader);
@@ -76,19 +65,7 @@ export const buildLoaders = (options: WebpackOptions): RuleSetRule[] => {
     if (isProd) {
         const styleLoader: RuleSetRule = {
             test: /\.scss$/i,
-            use: [
-                MiniCssExtractPlugin.loader,
-                {
-                    loader: "css-loader",
-                    options: {
-                        modules: {
-                            localIdentName: "[hash:base64:8]",
-                        },
-                    },
-                },
-                ,
-                "sass-loader",
-            ],
+            use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
         };
 
         rules.push(styleLoader);

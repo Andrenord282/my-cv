@@ -1,0 +1,34 @@
+.cv-experience {
+}
+.cv-experience__title {
+    margin-bottom: 5px;
+}
+.cv-experience__item {
+}
+.cv-experience__item-position {
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+.cv-experience__item-company {
+    font-weight: 500;
+    margin-bottom: 5px;
+
+    a {
+        text-decoration: underline;
+    }
+}
+.cv-experience__item-years {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.cv-experience__item-responsibilities {
+}
+.cv-experience__item-responsibilities-text {
+    list-style-type: disc;
+    list-style-position: inside;
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}

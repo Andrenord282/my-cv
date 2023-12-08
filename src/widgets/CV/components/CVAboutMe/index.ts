@@ -1,0 +1,1 @@
+export { CVAboutMe } from "./CVAboutMe";
