@@ -36,8 +36,8 @@ export const buildPlugins = (options: WebpackOptions): WebpackPluginInstance[] =
         plugins.push(
             new HtmlWebpackPlugin({
                 filename: "index.[contenthash].html",
-                title: 'init react app',
-                favicon: paths.favicon,
+                title: 'Аndrey Chuvashevskii CV',
+                // favicon: paths.favicon,
                 template: paths.public,
             })
         );
