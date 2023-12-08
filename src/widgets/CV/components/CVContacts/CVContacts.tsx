@@ -36,7 +36,7 @@ const CVContacts = (props: CVContactsProps) => {
                         <li className="cv-contacts__item">
                             <span className="cv-contacts__icon">{Icons[item.icon]()}</span>
                             {item.link && (
-                                <a href={item.link} className="cv-contacts__link" target="_blank">
+                                <a href={item.link} className="cv-contacts__link cv-text" target="_blank">
                                     {item.text}
                                 </a>
                             )}
