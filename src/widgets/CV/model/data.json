@@ -92,12 +92,12 @@
             "list": [
                 "JavaScript",
                 "TypeScript",
-                "React/Redux Toolkit",
+                "React / Redux Toolkit",
                 "Axios",
                 "HTML",
-                "CSS/SCSS/BEM",
-                "Express/MongoDB",
-                "Webpack/Gulp",
+                "CSS / SCSS / BEM",
+                "Express / MongoDB",
+                "Webpack / Gulp",
                 "Git"
             ]
         },
