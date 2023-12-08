@@ -21,8 +21,11 @@
         @media (max-width: 675px) {
             margin-bottom: 0;
             margin-right: 5px;
-            list-style-type: disc;
-            list-style-position: inside;
         }
+    }
+
+    @media (max-width: 675px) {
+        list-style-type: disc;
+        list-style-position: inside;
     }
 }
