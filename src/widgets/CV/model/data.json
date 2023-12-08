@@ -8,7 +8,7 @@
     "body": {
         "about-me": {
             "title": "Обо мне",
-            "text": "Имею двухлетний опыт работы с HTML/CSS/JavaScript. Планирую продолжать карьеру в качестве frontend разработчика. С нетерпением жду возможности применить свои навыки в работе с талантливой командой разработчиков."
+            "text": "Имею двухлетний опыт работы с HTML / CSS / JavaScript. Планирую продолжать карьеру в качестве frontend разработчика. С нетерпением жду возможности применить свои навыки в работе с талантливой командой разработчиков."
         },
         "experience": {
             "title": "Опыт работы",
@@ -17,7 +17,7 @@
                     "position": "HTML/CSS DEVELOPER",
                     "company": "STARTEAM",
                     "company-link": "https://starteam.io",
-                    "years": "февраль 2022- по настоящее время",
+                    "years": "февраль 2022 - по настоящее время",
                     "responsibilities": [
                         "Разработка и верстка одностраничных веб-сайтов с использованием HTML, CSS, SCSS и JavaScript.",
                         "Верстка и оптимизация писем на почтовые клиенты.",
@@ -36,7 +36,7 @@
                         "https://jun-hackathon-2023.vercel.app",
                         "https://github.com/Andrenord282/hackathon-team-16-client"
                     ],
-                    "descr": ["React/React context/SCSS/BEM", "Разработка клиентской части мини игры"]
+                    "descr": ["React / React context / SCSS / BEM", "Разработка клиентской части мини игры"]
                 },
                 {
                     "title": "Rick and Morty client api",
@@ -44,7 +44,7 @@
                         "https://rick-and-morty-app-nine.vercel.app",
                         "https://github.com/Andrenord282/rick-and-morty-app"
                     ],
-                    "descr": ["React/Redux toolkit/Axios/SCSS/BEM", "Каталог персонажей вселенной Рик и Морти"]
+                    "descr": ["React / Redux toolkit / Axios / SCSS / BEM", "Каталог персонажей вселенной Рик и Морти"]
                 },
                 {
                     "title": "Knowledgechain",
@@ -53,7 +53,7 @@
                         "https://github.com/Andrenord282/knowledgechain-app"
                     ],
                     "descr": [
-                        "React/Redux Toolkit/Axios/JWT/Express/MongoDB/SCSS/BEM",
+                        "React / Redux Toolkit / Axios / JWT / Express / MongoDB / SCSS / BEM",
                         "Форум, реализована регистрация и логин пользователя, создание поста, сортировка постов"
                     ]
                 }
